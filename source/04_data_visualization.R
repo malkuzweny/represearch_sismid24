@@ -3,7 +3,7 @@ load(here::here("data", "clean.Rdata"))
 library(tidyverse)
 library(forcats)
 
-
+# a meaningless change for git practice
 plot1 = covid %>%
   mutate(county = factor(county),
          county = fct_reorder(county, concentration)) %>%
