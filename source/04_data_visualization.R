@@ -4,6 +4,7 @@ library(tidyverse)
 library(forcats)
 
 # a meaningless change for git practice
+# another meaningless change
 plot1 = covid %>%
   mutate(county = factor(county),
          county = fct_reorder(county, concentration)) %>%
